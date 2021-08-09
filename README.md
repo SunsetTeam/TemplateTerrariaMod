@@ -3,6 +3,7 @@ A mod template for "Terraria" that does not depend on a specific PC and is prepa
 ## Required programs
 1) `Visual Studio` (Tested with `Visual Studio 2019 Community`)
 2) `tModLoader` ([official installation guide](https://github.com/tModLoader/tModLoader/wiki/tModLoader-guide-for-players))
+Note: Don't forget to download `ModCompile` via the `tModLoader` menu and enable developer mode.
 ## Preparing
 ### Preparing project
 1) DON'T open `Visual Studio` now! Project is not ready!
