@@ -1,2 +1,2 @@
-﻿buildIgnore = *.sln, *.csproj, *.user, obj\*, bin\*, .vs\*
+﻿buildIgnore = *.sln, *.csproj, *.user, obj\*, bin\*, .vs, *.md, .gitignore, .git\*, sample_csproj_user
 includePDB = true
