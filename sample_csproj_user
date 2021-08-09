@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<!-->Change only this property group!<-->
+	<PropertyGroup>
+    <TMLDir>C:\GOG Games\tModLoader</TMLDir>
+		<ModName>TemplateTerrariaMod</ModName>
+  </PropertyGroup>
+	<!-->Don't change this property group! (Executable paths)<-->
+	<PropertyGroup>
+    <CompileUtil>$(TMLDir)\tModLoaderServer.exe</CompileUtil>
+    <GamePath>$(TMLDir)\tModLoader.exe</GamePath>
+	</PropertyGroup>
+	<!-->And this! (Debug parameters)<-->
+  <PropertyGroup>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(GamePath)</StartProgram>
+    <StartWorkingDirectory>$(TMLDir)</StartWorkingDirectory>
+  </PropertyGroup>
+</Project>
